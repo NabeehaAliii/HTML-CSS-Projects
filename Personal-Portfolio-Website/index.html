@@ -1,0 +1,200 @@
+<!-- Your portfolio should have a welcome section with an id of welcome-section
+The welcome section should have an h1 element that contains text
+Your portfolio should have a projects section with an id of projects
+The projects section should contain at least one element with a class of project-tile to hold a project
+The projects section should contain at least one link to a project
+Your portfolio should have a navbar with an id of navbar
+The navbar should contain at least one link that you can click on to navigate to different sections of the page
+Your portfolio should have a link with an id of profile-link, which opens your GitHub or freeCodeCamp profile in a new tab
+Your portfolio should have at least one media query
+The height of the welcome section should be equal to the height of the viewport
+The navbar should always be at the top of the viewport -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link type="image/png" sizes="96x96" rel="icon" href="icons8-portfolio-96.png">
+    <title>Personal Portfolio</title>
+</head>
+
+<body>
+    <nav id="navbar">
+        <ul>
+            <li><a href="#welcomesection">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#Contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <br>
+    <div id="container">
+
+        <section id="welcomesection">
+            <h1> Hey I am Nabeeha Ali</h1>
+            <p>IST'26 | BSCS</p>
+        </section>
+
+        <br>
+
+        <section id="projects" class="projects-section">
+            <h2 class="projects-section-header">These are some of my projects</h2>
+      
+            <div class="projects-grid">
+              <a
+                href="https://codepen.io/freeCodeCamp/full/zNqgVx"
+                target="_blank"
+                class="project project-tile"
+              >
+                <img
+                  class="project-image"
+                  src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tribute.jpg"
+                  alt="project"
+                />
+                <p class="project-title">
+                  <span class="code">&lt;</span>
+                  Tribute Page
+                  <span class="code">&#47;&gt;</span>
+                </p>
+              </a>
+              <a
+                href="https://codepen.io/freeCodeCamp/full/qRZeGZ"
+                target="_blank"
+                class="project project-tile"
+              >
+                <img
+                  class="project-image"
+                  src="https://cdn.freecodecamp.org/testable-projects-fcc/images/random-quote-machine.png"
+                  alt="project"
+                />
+                <p class="project-title">
+                  <span class="code">&lt;</span>
+                  Random Quote Machine
+                  <span class="code">&#47;&gt;</span>
+                </p>
+              </a>
+              <a
+                href="https://codepen.io/freeCodeCamp/full/wgGVVX"
+                target="_blank"
+                class="project project-tile"
+              >
+                <img
+                  class="project-image"
+                  src="https://cdn.freecodecamp.org/testable-projects-fcc/images/calc.png"
+                  alt="project"
+                />
+                <p class="project-title">
+                  <span class="code">&lt;</span>
+                  JavaScript Calculator
+                  <span class="code">&#47;&gt;</span>
+                </p>
+              </a>
+              <a
+                href="https://codepen.io/freeCodeCamp/full/mVEJag"
+                target="_blank"
+                class="project project-tile"
+              >
+                <img
+                  class="project-image"
+                  src="https://cdn.freecodecamp.org/testable-projects-fcc/images/map.jpg"
+                  alt="project"
+                />
+                <p class="project-title">
+                  <span class="code">&lt;</span>
+                  Map Data Across the Globe
+                  <span class="code">&#47;&gt;</span>
+                </p>
+              </a>
+              <a
+                href="https://codepen.io/freeCodeCamp/full/wGqEga"
+                target="_blank"
+                class="project project-tile"
+              >
+                <img
+                  class="project-image"
+                  src="https://cdn.freecodecamp.org/testable-projects-fcc/images/wiki.png"
+                  alt="project"
+                />
+                <p class="project-title">
+                  <span class="code">&lt;</span>
+                  Wikipedia Viewer
+                  <span class="code">&#47;&gt;</span>
+                </p>
+              </a>
+              <a
+                href="https://codepen.io/freeCodeCamp/full/KzXQgy"
+                target="_blank"
+                class="project project-tile"
+              >
+                <img
+                  class="project-image"
+                  src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tic-tac-toe.png"
+                  alt="project"
+                />
+                <p class="project-title">
+                  <span class="code">&lt;</span>
+                  Tic Tac Toe Game
+                  <span class="code">&#47;&gt;</span>
+                </p>
+              </a>
+            </div>
+      
+            <a
+              href="https://codepen.io/FreeCodeCamp/"
+              class="btn btn-show-all"
+              target="_blank"
+              >Show all<i class="fas fa-chevron-right"></i
+            ></a>
+          </section>
+      
+        
+
+        <section id="Contact">
+
+            <h1>Let's Work Togeather</h1>
+            <p class="footer-line">How do you take your Coffee?</p>
+            <div class="social-links">
+                <ul><a href="https://www.facebook.com/nabeeha.ali.1441">
+                    <li><i class="fa-brands fa-square-facebook"></i>
+                        <p>Facebook</p>
+                    </li>
+                </a>
+                <a href="https://github.com/NabeehaAliii">
+                    <li>
+                            <i class="fa-brands fa-github"></i>
+                            <p>GitHub</p>
+                        </li>
+                    </a>
+                    <a href="https://github.com/NabeehaAliii">
+                    <li>
+                        <i class="fa-brands fa-x-twitter"></i>
+                        <p>X</p>
+                    </li>
+                </a>
+                <a href="https://www.linkedin.com/in/nabeeha-ali-15111a19b/">
+                    <li>
+                            <i class="fa-brands fa-linkedin"></i>
+                            <p>LinkedIn</p>
+                        </li>
+                    </a>
+                </ul>
+            </div>
+
+            <hr>
+
+            <div class="last">
+                <p>This is a Sample porfolio of Nabeeha Ali</p>
+                <p><i class="fa-regular fa-copyright"></i> Created for <a
+                        href="https://www.freecodecamp.org/">freeCodeCamp</a><i class="fa-brands fa-free-code-camp"></i>
+                </p>
+            </div>
+        </section>
+
+    </div>
+
+</body>
+
+</html>

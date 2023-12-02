@@ -1,0 +1,428 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <!-- <link type="image/png" sizes="96x96" rel="icon" href="icons8-portfolio-96.png"> -->
+    <title>Personal Portfolio</title>
+</head>
+
+<body>
+    <nav id="navbar">
+        <ul>
+            <li><a href="#welcome-section">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#Contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <br>
+    <div id="container">
+
+        <section id="welcome-section">
+            <h1> Hey I am Nabeeha Ali</h1>
+            <p>IST'26 | BSCS</p>
+        </section>
+
+        <br>
+
+        <section id="projects" class="projects-section">
+            <h2 class="projects-section-header">These are some of my projects</h2>
+      
+            <div class="projects-grid">
+              <a
+                href="https://codepen.io/freeCodeCamp/full/zNqgVx"
+                target="_blank"
+                class="project project-tile"
+              >
+                <img
+                  class="project-image"
+                  src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tribute.jpg"
+                  alt="project"
+                />
+                <p class="project-title">
+                  <span class="code">&lt;</span>
+                  Tribute Page
+                  <span class="code">&#47;&gt;</span>
+                </p>
+              </a>
+              <a
+                href="https://codepen.io/freeCodeCamp/full/qRZeGZ"
+                target="_blank"
+                class="project project-tile"
+              >
+                <img
+                  class="project-image"
+                  src="https://cdn.freecodecamp.org/testable-projects-fcc/images/random-quote-machine.png"
+                  alt="project"
+                />
+                <p class="project-title">
+                  <span class="code">&lt;</span>
+                  Random Quote Machine
+                  <span class="code">&#47;&gt;</span>
+                </p>
+              </a>
+              <a
+                href="https://codepen.io/freeCodeCamp/full/wgGVVX"
+                target="_blank"
+                class="project project-tile"
+              >
+                <img
+                  class="project-image"
+                  src="https://cdn.freecodecamp.org/testable-projects-fcc/images/calc.png"
+                  alt="project"
+                />
+                <p class="project-title">
+                  <span class="code">&lt;</span>
+                  JavaScript Calculator
+                  <span class="code">&#47;&gt;</span>
+                </p>
+              </a>
+              <a
+                href="https://codepen.io/freeCodeCamp/full/mVEJag"
+                target="_blank"
+                class="project project-tile"
+              >
+                <img
+                  class="project-image"
+                  src="https://cdn.freecodecamp.org/testable-projects-fcc/images/map.jpg"
+                  alt="project"
+                />
+                <p class="project-title">
+                  <span class="code">&lt;</span>
+                  Map Data Across the Globe
+                  <span class="code">&#47;&gt;</span>
+                </p>
+              </a>
+              <a
+                href="https://codepen.io/freeCodeCamp/full/wGqEga"
+                target="_blank"
+                class="project project-tile"
+              >
+                <img
+                  class="project-image"
+                  src="https://cdn.freecodecamp.org/testable-projects-fcc/images/wiki.png"
+                  alt="project"
+                />
+                <p class="project-title">
+                  <span class="code">&lt;</span>
+                  Wikipedia Viewer
+                  <span class="code">&#47;&gt;</span>
+                </p>
+              </a>
+              <a
+                href="https://codepen.io/freeCodeCamp/full/KzXQgy"
+                target="_blank"
+                class="project project-tile"
+              >
+                <img
+                  class="project-image"
+                  src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tic-tac-toe.png"
+                  alt="project"
+                />
+                <p class="project-title">
+                  <span class="code">&lt;</span>
+                  Tic Tac Toe Game
+                  <span class="code">&#47;&gt;</span>
+                </p>
+              </a>
+            </div>
+      
+            <a
+              href="https://codepen.io/FreeCodeCamp/"
+              class="btn btn-show-all"
+              target="_blank"
+              >Show all<i class="fas fa-chevron-right"></i
+            ></a>
+          </section>
+      
+        
+
+        <section id="Contact">
+
+            <h1>Let's Work Togeather</h1>
+            <p class="footer-line">How do you take your Coffee?</p>
+            <div class="social-links">
+                <ul><a id="profile-link" href="https://www.facebook.com/nabeeha.ali.1441" target="_blank">
+                    <li><i class="fa-brands fa-square-facebook"></i>
+                        <p>Facebook</p>
+                    </li>
+                </a>
+                <a id="profile-link" href="https://github.com/NabeehaAliii"  target="_blank">
+                    <li>
+                            <i class="fa-brands fa-github"></i>
+                            <p>GitHub</p>
+                        </li>
+                    </a>
+                    <a id="profile-link" href="https://github.com/NabeehaAliii"  target="_blank">
+                    <li>
+                        <i class="fa-brands fa-x-twitter"></i>
+                        <p>X</p>
+                    </li>
+                </a>
+                <a id="profile-link" href="https://www.linkedin.com/in/nabeeha-ali-15111a19b/"  target="_blank">
+                    <li>
+                            <i class="fa-brands fa-linkedin"></i>
+                            <p>LinkedIn</p>
+                        </li>
+                    </a>
+                </ul>
+            </div>
+
+            <hr>
+
+            <div class="last">
+                <p>This is a Sample porfolio of Nabeeha Ali</p>
+                <p><i class="fa-regular fa-copyright"></i> Created for <a
+                        href="https://www.freecodecamp.org/">freeCodeCamp</a><i class="fa-brands fa-free-code-camp"></i>
+                </p>
+            </div>
+        </section>
+
+    </div>
+
+</body>
+
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+*,*::before,*::after { 
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--main-gray);
+    font-family: "helovitaica" sans-serif;
+}
+
+@media (max-width: 75em) {
+  html {
+    font-size: 60%;
+  }
+}
+
+:root{
+    --basiccolor: #be3144;
+    --blackcolor: rgb(0,0,0);
+    --main-blue: #45567d;
+    --main-gray: #303841;  
+}
+
+#navbar{
+    margin: 0;
+    background-color: var(--basiccolor);
+    border: 2px solid transparent;
+    position: fixed;
+    top:0;
+    width: 100%;
+    height: 80px;
+    z-index:2;
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin-right: 70px;
+    gap: 80px;
+    margin-top: 23px;
+}
+#navbar a{
+    text-decoration: none;
+    color: white;
+}
+#navbar a:hover{
+        cursor: pointer;
+    color: var(--blackcolor);
+}
+#navbar li{
+    list-style: none;
+    font-size: 24px;
+    font-weight: 600
+}
+
+/* Navbar Complete*/
+#welcome-section{
+    margin-top: -30px;
+    width:100%;
+    height: 50vw;
+    /* background-color:; */
+    /* position: absolute; */
+    
+}
+#welcome-section h1{
+    margin-top: 90px;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+}
+#welcome-section p{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 30px;
+    color: var(--basiccolor);
+}
+/* Section Projects */
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    grid-gap: 4rem;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 6rem;
+  background: var(--main-blue);
+  /* border-radius: 5px; */
+  }
+
+#projects{
+  /* border: 2px solid red; */
+  /* margin-left: 20px; */
+  width:100%;
+  background: var(--main-blue);
+  padding: 40px;
+  
+}
+.projects-section-header { 
+  margin-bottom:40px;
+  text-align: center;
+  font-size: 40px;
+  border-bottom: 0.2rem solid var(--main-white);
+  color: white;
+}
+  .project {
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    border-radius: 2px;
+  }
+  
+  .code {
+    color: var(--main-gray);
+    transition: color 0.3s ease-out;
+  }
+  
+  .project:hover .code {
+    color: #ff7f50;
+  }
+  
+  .project-image {
+    height: calc(100% - 5.8rem);
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  .project-title {
+    background-color: var(--main-gray);
+    font-size: 20px;
+    height: 90px;
+    padding: 2rem 2rem;
+    color: white;
+  }
+
+#projects a{ 
+  text-decoration: none;
+}
+  
+  .btn {
+    /* text-align: center; */
+    margin-left:450px;
+    display: inline-block;
+    padding: 1rem 2rem;
+    border-radius: 2px;
+  }
+  
+  .btn-show-all {
+    font-size: 2rem;
+    background: var(--main-gray);
+    transition: background 0.3s ease-out;
+  }
+  
+  .btn-show-all:hover {
+    background: var(--main-red);
+  }
+  
+  .btn-show-all:hover > i {
+    transform: translateX(2px);
+  }
+  
+  .btn-show-all > i {
+    margin-left: 10px;
+    transform: translateX(0);
+    transition: transform 0.3s ease-out;
+  }
+
+#Contact{
+  height: 20vw;
+  width: 100%;
+  background-color: var(--main-gray);
+  color: white;
+  /* border: 2px solid blue; */
+}
+
+#Contact h1{
+  text-align: center;
+  font-size: 40px;
+  margin: 40px;
+}
+
+.footer-line{
+  text-align: center;
+  margin-top: -40px;
+}
+.social-links ul{
+  margin-top: 20px;
+  /* border: 2px solid; */
+  display: flex;
+  justify-content: space-evenly;
+}
+ul li{
+  display: flex;
+  gap: 10px;
+  font-size: 25px;
+}
+
+ul a{
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+ul a:hover{
+  color: var(--basiccolor);
+}
+hr{
+  height: 5px;
+  width: 100%;
+  background-color: var(--basiccolor);
+  margin-top: 30px;
+  border: 0px;
+}
+
+.last{
+  /* border: 2px solid; */
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px;
+  padding: 5px;
+}
+#container{
+    width: 100%;
+    height: 100%;
+    display:flex;
+    flex-direction: column;
+}
+
+
+** end of undefined **
+

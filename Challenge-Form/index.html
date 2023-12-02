@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <h1 id="title">FreeCodeCamp Survey Form</h1>
+  <p id="description">Thank you for taking the time to help us improve the platform</p>
+  <form id="survey-form">
+    <fieldset>
+      <label for="name-label">Name<input id="name-label" type="text" placeholder="Enter your name" required/></label>
+      <label for="email-label">Email<input id="email-label" type="email" placeholder="Enter your Email" required/></label>
+      <label for="number-label">Age (optional)<input id="number-label" type="number" min="13" max="85" placeholder="Age" required/>
+      </label>
+
+
+      <label for="dropdown">Which option best describes your current role?
+      <select id="dropdown" name="role">
+        <option disabled selected value>Select Current Role</option> 
+        <option value="student">Student</option> 
+        <option value="Job">Full Time Job</option> 
+        <option value="Learner">Full Time Learner</option> 
+        <option value="PreferNo">Prefer not to say</option>
+        <option value="other">Other</option> 
+        </select>
+
+
+      </label>
+      <label for="recommender" name="recommend">Would you recommend freeCodeCamp to a friend?</label>
+      <label><input name="recommend" class="inline" type="radio" checked/>Definitely</label>
+      <label><input name="recommend" type="radio" class="inline" />Maybe</label>
+      <label><input name="recommend" type="radio" class="inline" />Not Sure</label>
+
+      <label for="dropdown" name="fav-feature">What is your favorite feature of freeCodeCamp?
+        <select id="dropdown">
+          <option value="SelectAnyOption">Select an option<option>
+          <option value="Challenge">Challenges<option>
+          <option value="Project">Project<option>
+          <option value="Community">Community<option>
+          <option value="OpenSource">Open Source<option>
+        </select>
+      </label>
+    </fieldset>
+    <fieldset>
+
+      <label>What would you like to see improved? (Check all that apply)</label>
+      <label><input name="prefer" value="front-end-project" class="input-checkbox" type="Checkbox"/>Front-end Projects</label>
+      <label><input name="prefer" value="back-end-project" class="input-checkbox" type="Checkbox"/>Back-end Projects</label>
+      <label><input name="prefer" value="Data-Visualization" class="input-checkbox"  type="Checkbox"/>Data Visualization</label>
+      <label><input name="prefer" value="challenges" class="input-checkbox" type="Checkbox"/>Challenges</label> <label><input name="prefer" value="community" class="input-checkbox" type="Checkbox"/>Open Source Community</label>
+      <label><input name="prefer" value="gitter-help-room" class="input-checkbox" type="Checkbox"/>Gitter help rooms</label>
+      <label><input name="prefer" value="videos" class="input-checkbox" type="Checkbox"/>Videos</label>
+      <label><input name="prefer" value="city-meetups" class="input-checkbox" type="Checkbox"/>City Meetups</label>
+      <label><input name="prefer" value="wiki" class="input-checkbox" type="Checkbox"/>Wiki</label>
+      <label><input name="prefer" value="forums" class="input-checkbox" type="Checkbox"/>Forums</label>
+      <label><input name="prefer" value="additional-courses" class="input-checkbox" type="Checkbox"/>Additional Courses</label>
+    </fieldset>
+    <fieldset>
+      <label for="comments">Any Comments or Suggestions?</lable>
+      <textarea id="comments" placeholder="Enter your comments here..."></textarea>
+  
+  <button type="submit" id="submit" class="submit-button">Submit</button>
+    </fieldset>
+
+  </form>
+</body>
+
+</html>

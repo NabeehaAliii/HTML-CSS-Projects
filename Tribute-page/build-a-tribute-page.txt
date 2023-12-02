@@ -1,0 +1,161 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="Tribute-Page" content="A Tribute Page of Dr. Israr Ahmed">
+    <link rel="stylesheet" href="styles.css">
+    <title>A Tribute Page | Dr. Israr Ahmed</title>
+</head>
+
+<main id="main">
+    <body id="body">
+        <h1 id="title">Dr. Israr Ahmed</h1>
+        <p id="oneliner">A man who changed a million lives</p>
+        <div id="img-div">
+            <img id="image" src="https://blog.darulandlus.pk/wp-content/uploads/2020/12/Dr.-israr-1024x299.png">
+            <figcaption id="img-caption">Dr. Israr Ahmed was a renowned Pakistani Islamic scholar, theologian, and founder
+                of the religious organization Tanzeem-e-Islami, known for his in-depth Quranic and Islamic teachings.
+            </figcaption>
+        </div>
+
+        <div id="tribute-info">
+            <h4 class="center">Here's a time line of Dr. Israr Ahmed life:</h4>
+            <ul id="timeline-info">
+                <li>
+                    <p><span class="bold">1932</span> - Dr. Israr Ahmed born on April 26 in Haryana, British India (now
+                        in Pakistan).</p>
+                </li>
+                <li>
+                    <p><span class="bold">1967</span> - Founded Tanzeem-e-Islami, a religious and educational
+                        organization.</p>
+                </li>
+                <li>
+                    <p><span class="bold">1971</span> - Started the radio program "Al-Hashr" to teach the Quran. </p>
+                </li>
+                <li>
+                    <p><span class="bold">1981</span>- Established Markazi Anjuman Khuddam-ul-Quran in Lahore.</p>
+                </li>
+                <li>
+                    <p><span class="bold">1982</span> - Published renowned Tafseer (Quranic exegesis). </p>
+                </li>
+                <li>
+                    <p><span class="bold">2001</span> - Received the Sitara-i-Imtiaz civil award in Pakistan. </p>
+                </li>
+                <li>
+                    <p><span class="bold">2008</span>- Initiated the "Quran Academy" for Quranic education.</p>
+                </li>
+                <li>
+                    <p><span class="bold">2010</span> Dr. Israr Ahmed passed away on April 14 in Lahore, Pakistan. </p>
+                </li>
+            </ul>
+                    <h4 class="center">If you have time, you should read more about this incredible human being on his <a id="tribute-link" href="https://en.wikipedia.org/wiki/Israr_Ahmed" target="_blank">Wikipedia Entry</a></h4>
+        </div>
+    </body>
+
+</main>
+
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+#main{background-color: #eee;
+    width: 90%;
+   // border: 2px solid red;
+    padding: 5px;
+    margin: 20px auto;
+  }
+  
+  #body{
+    background-color: white;
+    width: 100%;
+    //border: 2px solid black;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  #title, #oneliner{
+    text-align: center;
+  }
+  #title{
+    font-weight: 800;
+    font-size: 40px;
+  }
+  #oneliner{
+    font-style: italic;
+    font-weight: 600;
+  }
+  
+
+  img{
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    display: block;
+  }
+  
+  *{
+    box-sizing: border-boxing;
+  }
+  
+   #img-div{
+    width: 100%;
+  
+  } 
+  
+  #img-caption{
+    font-style: italic;
+    font-weight: 500;
+    display: inline-block;
+    //border: 2px solid yellow;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+  }
+  
+  #tribute-info{
+   // border: 2px solid green;
+    width: 100%;
+  }
+  
+  .center{
+    text-align: center;
+  }
+
+  .bold{
+    font-weight: 600;
+  }
+
+  #timeline-info{
+    margin: 0px;
+    padding: 10px 0px 10px 260px;
+  }
+
+  nav> ul> li{
+    line-height: 2px;
+  }
+
+  #tribute-link{
+    color: black;
+    font-weight: 800;
+    cursor: pointer;
+  }
+  #tribute-link:hover{
+    color: grey;
+    font-weight: 800;
+    cursor: pointer;
+  }
+   #tribute-link:action{
+    color: blue;
+    font-weight: 800;
+    cursor: pointer;
+  }
+
+** end of undefined **
+
